@@ -1,27 +1,35 @@
-/* globals.css */
+root {
+  --primary-color: #00ff95;
+  --secondary-color: #ff4d4d;
+  --bg-dark: #0a0a0a;
+  --text-light: #ffffff;
+  --button-radius: 12px;
+  --transition-speed: 0.3s;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background-color: var(--bg-dark);
+  font-family: 'Arial', sans-serif;
+  color: var(--text-light);
 }
 
-header, footer {
-  text-align: center;
-  padding: 10px;
+button {
+  border: none;
+  border-radius: var(--button-radius);
+  padding: 10px 20px;
+  transition: all var(--transition-speed) ease-in-out;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+button.up {
+  background-color: var(--primary-color);
+  color: black;
 }
 
-.chart {
-  width: 360px;
-  height: 240px;
-  margin-bottom: 20px;
+button.down {
+  background-color: var(--secondary-color);
+  color: white;
 }
