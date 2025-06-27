@@ -1,32 +1,19 @@
-/* styles/globals.css */
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
   background-color: #000;
   color: #fff;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.header {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .chart {
-  width: 360px;
+  width: 100%;
   height: 240px;
 }
 
 .footer {
-  margin-top: 1rem;
   color: #ffc107;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
