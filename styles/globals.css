@@ -1,58 +1,38 @@
-/* Base Theme */
 body {
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #000;
   color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Header */
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
 .header {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-/* Chart Container */
 .chart {
-  width: 360px;
+  width: 100%;
   height: 240px;
-  border: 1px solid #333;
   margin-bottom: 2rem;
+  border: 1px solid #333;
 }
 
-/* Footer / Payout */
 .footer {
-  font-size: 1rem;
   color: #ffc107;
   text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* Add optional container */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-/* Buttons Preview (future use) */
-button {
-  padding: 10px 20px;
-  background-color: #222;
-  color: #fff;
-  border: 1px solid #444;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-button:hover {
-  background-color: #333;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
